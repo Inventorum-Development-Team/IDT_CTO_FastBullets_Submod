@@ -1,0 +1,255 @@
+items:
+  #Ammo updates, changes the speed.
+  - &STR_38_SPECIAL_AMMO
+    update: STR_38_SPECIAL
+    bulletSprite: 1
+    explosionSpeed: 30
+    bulletSpeed: 20
+  - &STR_MAKAROV_AMMO
+    update: STR_MAKAROV_AMMO
+    bulletSprite: 11
+    explosionSpeed: 30
+    bulletSpeed: 20 
+  - &STR_9MM_PISTOL_AMMO
+    update: STR_9MM_PISTOL_AMMO
+    bulletSprite: 11
+    explosionSpeed: 30
+    bulletSpeed: 20
+  - &STR_9MM_GYURZA_AMMO
+    update: STR_9MM_GYURZA_AMMO
+    bulletSprite: 11
+    explosionSpeed: 30
+    bulletSpeed: 20 
+  - &STR_FN57_AMMO
+    update: STR_FN57_AMMO
+    bulletSprite: 12
+    explosionSpeed: 30
+    bulletSpeed: 20 
+  - &STR_HK_4_6_30mm
+    update: STR_HK_4_6_30mm
+    bulletSprite: 12
+    explosionSpeed: 30
+    bulletSpeed: 20 
+  - &STR_45_PISTOL_AMMO
+    update: STR_45_PISTOL_AMMO
+    bulletSprite: 2
+    explosionSpeed: 30
+    bulletSpeed: 20 
+  #RIFLE AMMO
+  - &STR_CASELESS_4_73_AMMO
+    update: STR_CASELESS_4_73_AMMO
+    bulletSprite: 12
+    explosionSpeed: 30
+    bulletSpeed: 20 
+  - &STR_5_45_AMMO
+    update: STR_5_45_AMMO
+    bulletSprite: 13
+    explosionSpeed: 30
+    bulletSpeed: 20
+  - &STR_5_56MM_NATO_RIFLE_AMMO
+    update: STR_5_56MM_NATO_RIFLE_AMMO
+    bulletSprite: 14
+    explosionSpeed: 30
+    bulletSpeed: 20 
+  - &STR_22_LONG_RIFLE_AMMO
+    update: STR_22_LONG_RIFLE_AMMO
+    bulletSprite: 2
+    explosionSpeed: 30
+    bulletSpeed: 20
+  - &STR_7_62MM_SOVIET_RIFLE_AMMO
+    update: STR_7_62MM_SOVIET_RIFLE_AMMO
+    bulletSprite: 13
+    explosionSpeed: 30
+    bulletSpeed: 20 
+  - &STR_7_62MM_NATO_RIFLE_AMMO
+    update: STR_7_62MM_NATO_RIFLE_AMMO
+    bulletSprite: 15
+    explosionSpeed: 30
+    bulletSpeed: 20 
+  - &STR_SOVIET_7_62_MMR_AMMO
+    update: STR_SOVIET_7_62_MMR_AMMO
+    bulletSprite: 13
+    explosionSpeed: 30
+    bulletSpeed: 20 
+  - &STR_9_39_AMMO
+    update: STR_9_39_AMMO
+    bulletSprite: 16
+    explosionSpeed: 30
+    bulletSpeed: 20 
+  - &STR_338_LAPUA_AMMO
+    update: STR_338_LAPUA_AMMO
+    bulletSprite: 17
+    explosionSpeed: 40
+    bulletSpeed: 20 
+  - &STR_50_BMG_AMMO
+    update: STR_50_BMG_AMMO
+    bulletSprite: 18
+    explosionSpeed: 40
+    bulletSpeed: 20 
+  - &STR_127_AMMO
+    update: STR_127_AMMO
+    bulletSprite: 18 
+    explosionSpeed: 40
+    bulletSpeed: 20
+  - &STR_12G_BUCKSHOT
+    update: STR_12G_BUCKSHOT
+    bulletSprite: 3
+    explosionSpeed: 40
+    bulletSpeed: 20
+  - &STR_12G_SLUG
+    update: STR_12G_SLUG
+    bulletSprite: 3
+    explosionSpeed: 30
+    bulletSpeed: 20
+  - &STR_12G_NON_LETHAL
+    update: STR_12G_NON_LETHAL
+    bulletSprite: 3
+    explosionSpeed: 30
+    bulletSpeed: 20
+  - &STR_SHRAPNEL_25
+    update: STR_SHRAPNEL_25
+    bulletSprite: 3
+    explosionSpeed: 30
+    bulletSpeed: 20
+  - &STR_BARRICADE
+    update: STR_BARRICADE
+    bulletSprite: 3
+    explosionSpeed: 30
+    bulletSpeed: 20
+  - &STR_VOLNA_R
+    update: STR_VOLNA_R
+    bulletSprite: 3
+    explosionSpeed: 30
+    bulletSpeed: 20
+
+  #Mags, updates the ref node to the ones above
+  - update: STR_38_SPECIAL_X6
+    refNode: *STR_38_SPECIAL_AMMO
+  - update: STR_9MM_MAKAROV_X10
+    refNode: *STR_MAKAROV_AMMO
+  - update: STR_9MM_MAKAROV_X20
+    refNode: *STR_MAKAROV_AMMO
+  - update: STR_9MM_MAKAROV_X30
+    refNode: *STR_MAKAROV_AMMO
+  - update: STR_9MM_PARABELLUM_X10
+    refNode: *STR_9MM_PISTOL_AMMO
+  - update: STR_9MM_PARABELLUM_X20
+    refNode: *STR_9MM_PISTOL_AMMO
+  - update: STR_9MM_PARABELLUM_X30
+    refNode: *STR_9MM_PISTOL_AMMO
+  - update: STR_9MM_PARABELLUM_X40
+    refNode: *STR_9MM_PISTOL_AMMO
+  - update: STR_9MM_GYURZA_X20
+    refNode: *STR_9MM_GYURZA_AMMO
+  - update: STR_9MM_GYURZA_X30
+    refNode: *STR_9MM_GYURZA_AMMO
+  - update: STR_FN_57_X20
+    refNode: *STR_FN57_AMMO
+  - update: STR_HK_4_6_30mmX20
+    refNode: *STR_HK_4_6_30mm
+  - update: STR_HK_4_6_30mmX30
+    refNode: *STR_HK_4_6_30mm
+  - update: STR_HK_4_6_30mmX40
+    refNode: *STR_HK_4_6_30mm
+  - update: STR_FN_57_X50
+    refNode: *STR_FN57_AMMO
+  - update: STR_45_ACP_X7
+    refNode: *STR_45_PISTOL_AMMO
+  - update: STR_45_ACP_X12
+    refNode: *STR_45_PISTOL_AMMO
+  - update: STR_45_ACP_X25
+    refNode: *STR_45_PISTOL_AMMO
+  - update: STR_CASELESS_4_73_X50
+    refNode: *STR_CASELESS_4_73_AMMO
+  - update: STR_5_45_X30
+    refNode: *STR_5_45_AMMO
+  - update: STR_5_45_X45
+    refNode: *STR_5_45_AMMO
+  - update: STR_5_45_X60
+    refNode: *STR_5_45_AMMO
+  - update: STR_5_56_X30
+    refNode: *STR_5_56MM_NATO_RIFLE_AMMO
+  - update: STR_5_56_X50
+    refNode: *STR_5_56MM_NATO_RIFLE_AMMO
+  - update: STR_5_56_X100
+    refNode: *STR_5_56MM_NATO_RIFLE_AMMO
+  - update: STR_22_LONG_RIFLE_X6
+    refNode: *STR_5_56MM_NATO_RIFLE_AMMO
+  - update: STR_SOVIET_7_62_X10
+    refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
+  - update: STR_SOVIET_7_62_X30
+    refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
+  - update: STR_SOVIET_7_62_X40
+    refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
+  - update: STR_SOVIET_7_62_X75
+    refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
+  - update: STR_NATO_7_62_X5
+    refNode: *STR_7_62MM_NATO_RIFLE_AMMO
+  - update: STR_NATO_7_62_X10
+    refNode: *STR_7_62MM_NATO_RIFLE_AMMO
+  - update: STR_NATO_7_62_X20
+    refNode: *STR_7_62MM_NATO_RIFLE_AMMO
+  - update: STR_NATO_7_62_X50
+    refNode: *STR_7_62MM_NATO_RIFLE_AMMO
+  - update: STR_NATO_7_62_X100
+    refNode: *STR_7_62MM_NATO_RIFLE_AMMO
+  - update: STR_SOVIET_7_62_MMR_X10
+    refNode: *STR_SOVIET_7_62_MMR_AMMO
+  - update: STR_SOVIET_7_62_MMR_X50
+    refNode: *STR_SOVIET_7_62_MMR_AMMO
+  - update: STR_SOVIET_7_62_MMR_X100
+    refNode: *STR_SOVIET_7_62_MMR_AMMO
+  - update: STR_9_39_X10
+    refNode: *STR_9_39_AMMO
+  - update: STR_9_39_X20
+    refNode: *STR_9_39_AMMO
+  - update: STR_338_LAPUA_X5
+    refNode: *STR_338_LAPUA_AMMO
+  - update: STR_50_BMG_X5
+    refNode: *STR_50_BMG_AMMO
+  - update: STR_50_BMG_X10
+    refNode: *STR_50_BMG_AMMO
+  - update: STR_127_X5
+    refNode: *STR_127_AMMO
+  - update: STR_12G_BUCKSHOT_X2
+    refNode: *STR_12G_BUCKSHOT
+  - update: STR_12G_BUCKSHOT_X5
+    refNode: *STR_12G_BUCKSHOT
+  - update: STR_12G_BUCKSHOT_X8
+    refNode: *STR_12G_BUCKSHOT
+  - update: STR_12G_BUCKSHOT_X20
+    refNode: *STR_12G_BUCKSHOT
+  - update: STR_12G_BUCKSHOT_X30
+    refNode: *STR_12G_BUCKSHOT
+  - update: STR_12G_SLUG_X8
+    refNode: *STR_12G_SLUG
+  - update: STR_12G_NON_LETHAL_X8
+    refNode: *STR_12G_NON_LETHAL
+  - update: STR_SHRAPNEL_25_X3
+    refNode: *STR_SHRAPNEL_25
+  - update: STR_BARRICADE_X3
+    refNode: *STR_BARRICADE
+  - update: STR_VOLNA_R_X3
+    refNode: *STR_VOLNA_R
+
+
+
+extraSprites:
+  - type: Projectiles
+    height: 3
+    width: 105
+    subX: 3
+    subY: 3
+    files:
+      350: Resources/TaserBullet.png #10 #Not changed
+      385: Resources/9mmPistolBullet.png #11
+      420: Resources/57mmPistolBullet.png #12
+      455: Resources/RussianIntermediateRifleBullet.png #13
+      490: Resources/NATOIntermediateRifleBullet.png #14
+      525: Resources/NATOFullRifleBullet.png #15
+      560: Resources/SubsonicBullet.png #16
+      595: Resources/LapuaMagnumBullet.png #17
+      630: Resources/HighCaliberBullet.png #18
+      665: Resources/40mmGrenadeBullet.png #19 #Not changed
+      700: Resources/CarlGustavRound.png #20 #Not changed
+      735: Resources/RussianRocket.png #21 #Not changed

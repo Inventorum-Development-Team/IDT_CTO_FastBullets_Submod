@@ -1,0 +1,10 @@
+name: "Fast Bullets"
+version: "1.0"
+versionDisplay: "1.0"
+requiredExtendedVersion: "7.11"
+author: "Filip H, efrenespartano, wethan2 + IDT"
+description: "Significantly speeds up bullets and hit particles, allowing faster shooting."
+id: FastBullets
+isMaster: false
+master: CTO
+reservedSpace: 1
