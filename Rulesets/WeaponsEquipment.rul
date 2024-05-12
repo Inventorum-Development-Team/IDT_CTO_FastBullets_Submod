@@ -30,6 +30,11 @@ items:
     bulletSprite: 12
     explosionSpeed: 30
     bulletSpeed: 20 
+  - &STR_65CBJ_AMMO 
+    update: STR_65CBJ_AMMO
+    bulletSprite: 12
+    explosionSpeed: 30
+    bulletSpeed: 20
   - &STR_45_PISTOL_AMMO
     update: STR_45_PISTOL_AMMO
     bulletSprite: 2
@@ -231,6 +236,10 @@ items:
     refNode: *STR_BARRICADE
   - update: STR_VOLNA_R_X3
     refNode: *STR_VOLNA_R
+  - update: STR_65CBJ_X30
+    refNode: *STR_65CBJ_AMMO
+  - update: STR_65CBJ_X100
+    refNode: *STR_65CBJ_AMMO
 
 
 
