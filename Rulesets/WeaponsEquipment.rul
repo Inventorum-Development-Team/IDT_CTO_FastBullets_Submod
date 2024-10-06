@@ -37,9 +37,14 @@ items:
     bulletSpeed: 20
   - &STR_45_PISTOL_AMMO
     update: STR_45_PISTOL_AMMO
-    bulletSprite: 2
+    bulletSprite: 11
     explosionSpeed: 30
     bulletSpeed: 20 
+  - &STR_50AE_PISTOL_AMMO
+    type: STR_50AE_PISTOL_AMMO
+    bulletSprite: 18
+    explosionSpeed: 40
+    bulletSpeed: 20
   #RIFLE AMMO
   - &STR_CASELESS_4_73_AMMO
     update: STR_CASELESS_4_73_AMMO
@@ -96,6 +101,12 @@ items:
     bulletSprite: 18 
     explosionSpeed: 40
     bulletSpeed: 20
+  - &STR_30_06_AMMO
+    update: STR_30_06_AMMO
+    bulletSprite: 17
+    explosionSpeed: 40
+    bulletSpeed: 20
+  # SHOTGUN AMMO
   - &STR_12G_BUCKSHOT
     update: STR_12G_BUCKSHOT
     bulletSprite: 3
@@ -240,6 +251,12 @@ items:
     refNode: *STR_65CBJ_AMMO
   - update: STR_65CBJ_X100
     refNode: *STR_65CBJ_AMMO
+  - type: STR_30_06_X8
+    refNode: *STR_30_06_AMMO
+  - type: STR_50_AE_X7
+    refNode: *STR_50AE_PISTOL_AMMO
+  - type: STR_5_56_X100_DRUM
+    refNode: *STR_5_56MM_NATO_RIFLE_AMMO
 
 
 

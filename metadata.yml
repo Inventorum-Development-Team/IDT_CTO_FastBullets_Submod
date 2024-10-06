@@ -1,9 +1,9 @@
 name: "Fast Bullets"
-version: "1.0"
-versionDisplay: "1.0"
+version: "1.1"
+versionDisplay: "1.1"
 requiredExtendedVersion: "7.11"
 author: "Filip H, efrenespartano, wethan2 + IDT"
-description: "Significantly speeds up bullets and hit particles, allowing faster shooting."
+description: "Significantly speeds up bullets and hit particles, allowing faster shooting. Also includes new tracers to keep track of shots easier."
 id: FastBullets
 isMaster: false
 master: CTO
