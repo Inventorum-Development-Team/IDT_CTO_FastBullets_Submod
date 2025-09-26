@@ -251,11 +251,13 @@ items:
     refNode: *STR_65CBJ_AMMO
   - update: STR_65CBJ_X100
     refNode: *STR_65CBJ_AMMO
-  - type: STR_30_06_X8
+  - update: STR_30_06_X8
     refNode: *STR_30_06_AMMO
-  - type: STR_50_AE_X7
+  - update: STR_50_AE_X7
     refNode: *STR_50AE_PISTOL_AMMO
-  - type: STR_5_56_X100_DRUM
+  - update: STR_5_56_X100_DRUM
+    refNode: *STR_5_56MM_NATO_RIFLE_AMMO
+  - update: STR_5_56_X10
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
 
 
